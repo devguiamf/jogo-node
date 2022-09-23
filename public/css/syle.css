@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+#formulario-pergunta{
+    margin-top: 2rem;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.titulo{
+    padding: 20px 20px;
+    text-align:  center;
+}
+
+#buton{
+    width: 150px;
+}
+h1{
+    text-align: center;
+}
+#nav{
+    background-color: rgb(106, 106, 255);
+    height: 5vw;
+}
