@@ -11,28 +11,28 @@
 <body>
     <header>
         <nav id="nav">            
-            <h1>CLASSIFICAÇÃO DOS PLAYERS</h1>            
+            <h1>Ranking do Survival-Game</h1>            
         </nav>
     </header>
     <main>
         <div class="titulo">
-            <h2>Vai realmente deixar alguem pasar você?</h2>
-            <br>
-            <a href="https://fatec-zombie-game.netlify.app"><button type="button" class="btn btn-outline-primary btn-lg">Jogar</button></a>
+            <h2>Mostre que você é o melhor sobrevivente</h2>
             
+            <a href="https://fatec-zombie-game.netlify.app" target="_blank"><button type="button" class="botao">Jogar</button></a>
+            <hr>
         </div>
         <div class="container">
             <table class="table table-dark">
                 <thead>
                 <tr>
-                    <th scope="col">ID</th>
+                    <th scope="col">LUGAR</th>
                     <th scope="col">PLAYER</th>
                     <th scope="col">SCORE</th>
                 </tr>
                 </thead>
                 <tbody>
                     <% tables.forEach((player, index) => { %>                  
-                        <tr id="teste">               
+                        <tr>               
                             <th scope="row" id="first"><%= index+1%>°</th>
                             <td><%= player.nome%></td>
                             <td><%= player.score%></td>                
@@ -41,6 +41,9 @@
                 </tbody>
             </table>
         </div>
-    </main>    
+    </main>  
+    <footer>
+        <p>Criado por Guilherme de Almeida Morais Ferreira</p>
+    </footer>  
 </body>
 </html>
